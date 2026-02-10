@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
-let x=-123;
+let x=123;
 var reverse = function(x) {
 
     let rev=0;
