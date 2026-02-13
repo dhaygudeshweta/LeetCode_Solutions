@@ -1,6 +1,4 @@
-* @param {number[]} nums
- * @return {number[]}
- */
+
 var sortArray = function(nums) {
     function mergeSort(arr,lb,ub)
     {
