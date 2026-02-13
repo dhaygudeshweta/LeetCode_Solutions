@@ -27,6 +27,8 @@ var mergSort=function(arr,lb,ub){
             j++;
             
         }
+    }
+    
         while(i<=mid)
         {
             temp.push(arr[i]);
@@ -42,7 +44,7 @@ var mergSort=function(arr,lb,ub){
         {
             arr[k]=temp[k-lb];
         }
-    }
+    
 }
 
 console.log("befor",nums);
