@@ -13,6 +13,7 @@ var removeElement = function(nums, val) {
            k++;
         }
     }
+   
     return k;
     
 };
